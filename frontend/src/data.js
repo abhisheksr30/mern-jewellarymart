@@ -1,6 +1,7 @@
 const data = {
   products: [
     {
+      _id: '1',
       name: 'Laxmi sara',
       slug: 'Laxmi-sara',
       category: 'necklace',
@@ -11,9 +12,11 @@ const data = {
       brand: 'sara',
       rating: 4.5,
       numReviews: 10,
-      description: '916 KDM HallMark Gold',
+      description:
+        'Product Code:	PJ017, Availability:	In stock, Product Metal:	Gold',
     },
     {
+      _id: '2',
       name: 'Entele sara',
       slug: 'Entele-sara',
       category: 'necklace',
@@ -27,6 +30,7 @@ const data = {
       description: '916 KDM HallMark Gold',
     },
     {
+      _id: '3',
       name: 'Haram',
       slug: 'Haram',
       category: 'necklace',
@@ -40,6 +44,7 @@ const data = {
       description: '916 KDM HallMark Gold',
     },
     {
+      _id: '4',
       name: 'Pathak',
       slug: 'Pathak',
       category: 'necklace',

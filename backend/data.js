@@ -1,4 +1,19 @@
+import bcrypt from 'bcryptjs';
 const data = {
+  users: [
+    {
+      name: 'abhi',
+      email: 'abhi@gmail.com',
+      password: bcrypt.hashSync('123456'),
+      isAdmin: true,
+    },
+    {
+      name: 'John',
+      email: 'user@example.com',
+      password: bcrypt.hashSync('123456'),
+      isAdmin: false,
+    },
+  ],
   products: [
     {
       name: 'Laxmi sara',
@@ -6,12 +21,13 @@ const data = {
       category: 'necklace',
       image: '/images/p1.jpg',
       gram: '25',
-      price: 140000,
+      price: 434532,
       countInStock: 10,
       brand: 'sara',
       rating: 4.5,
       numReviews: 10,
-      description: '916 KDM HallMark Gold',
+      description:
+        'This Gold Laxmi Necklace has small circular coin shaped pieces with the impression of goddess Laxmi, arranged in a linear fashion on regular gaps.',
     },
     {
       name: 'Entele sara',
@@ -20,11 +36,11 @@ const data = {
       image: '/images/p2.jpg',
       gram: '25',
       price: 140000,
-      countInStock: 10,
+      countInStock: 0,
       brand: 'sara-necklace',
       rating: 4.5,
       numReviews: 10,
-      description: '916 KDM HallMark Gold',
+      description: 'aestdfygg',
     },
     {
       name: 'Haram',
